@@ -4,13 +4,13 @@ Este repositorio contiene el microservicio de **Servicio de Perfiles de Clientes
 
 ---
 
-## 📝 Descripción
+## Descripción
 
 Microservicio que gestiona la información de perfil física de los clientes (nombre completo, RFC, correo, teléfono y dirección postal). Soporta la carga dinámica de imágenes de perfil y la vinculación de regiones geográficas.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Tech Stack
 
 *   **Lenguaje de Programación:** Java 17
 *   **Framework Principal:** Spring Boot 3
@@ -20,7 +20,7 @@ Microservicio que gestiona la información de perfil física de los clientes (no
 
 ---
 
-## 🚀 Guía de Ejecución Independiente
+## Guía de Ejecución
 
 Si desea arrancar este microservicio por separado para depuración o pruebas locales, siga estas instrucciones:
 
@@ -37,12 +37,12 @@ mvn spring-boot:run
 
 ---
 
-## 📖 Documentación de Endpoints (Swagger / OpenAPI)
+## Documentación de Endpoints (Swagger / OpenAPI)
 
 Este microservicio cuenta con documentación de API interactiva autogenerada con OpenAPI. 
 
 Una vez que el servicio esté corriendo, puede explorar y probar los endpoints interactivos ingresando a la siguiente dirección en su navegador:
-👉 **[Swagger UI - Servicio de Perfiles de Clientes (Customer Service)](http://localhost:8081/swagger-ui/index.html)**
+ **[Swagger UI - Servicio de Perfiles de Clientes (Customer Service)](http://localhost:8081/swagger-ui/index.html)**
 
 *Nota: La ruta de metadatos OpenAPI cruda en formato JSON está disponible en: `http://localhost:8081/v3/api-docs`.*
 
